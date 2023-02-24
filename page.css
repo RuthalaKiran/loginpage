@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+*{
+    margin:0;
+    padding: 0;
+    font-family:sans-serif;
+    
+}
+section{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    min-height: 100vh;
+    /*background-color: antiquewhite;
+    width:100%;
+    background-image: url("4.png.jpg");
+    background-position: center;
+    background-size: cover;*/
+}
+#box{
+    background-color:transparent;
+    position:relative;
+    width: 400px;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #fff;
+    border-radius: 10px;
+}
+h2{
+    font-size: 2em;
+    color: #fff;
+    text-align: center;
+}
+.input{
+    position:relative;
+    margin: 30px 0;
+    width:310px;
+    border-bottom: 2px solid #fff;
+}
+.input label{
+    position:absolute;
+    width: 100%;
+    top:25px;
+    left:10px;
+    transform:translateY(-50%);
+    color:#fff;
+    font-size: 1em;
+    pointer-events:none;
+    transition: .5s;
+}
+input:focus ~ label,
+input:valid ~ label{
+    top:-5px;
+}
+.input input{
+    width:100%;
+    height: 30px;
+    
+    position: relative;
+    background-color: transparent;
+    border: none;
+    outline:none;
+    padding:2px 0px  ;
+    color:#fff;
+}
+.input ion-icon{
+    position:relative;
+    left:290px;
+    top:20px;
+    color: #fff;
+}
+.forget{
+    position:relative;
+    margin:10px;
+    bottom:20px;
+    right:5px;
+    
+}
+.forget a{
+    color:blue;
+    text-decoration: none;
+}
+.forget a:hover{
+    color:#fff;
+    text-decoration: underline;
+}
+button{
+    width: 100%;
+    height:50px;
+    border-radius:13px;
+    background-color:blue;
+    color: #fff;
+    font-size: larger;
+}
+.register{
+    width: 100%;
+    height: 20px;
+    position:absolute;
+    top:400px;
+    text-align: center;
+
+}
+.register a{
+    text-decoration: none;
+}
+.register a:hover{
+    color:#fff;
+    text-decoration:underline;
+}
+#abc {
+    background-color: black;
+width: 100%;
+height: 100%;
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+}
